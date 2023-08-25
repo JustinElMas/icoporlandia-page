@@ -1,22 +1,4 @@
-// for (let i  = 0; i < 100; i++){
-//     const $lape = document.getElementById("lap");
-//     $lape.innerHTML += i + "</br>";
-// };
-
 const $spanDateForNews = document.querySelector("#date_for_news");
-
-//dateNow
-/* const $dateNow = new Date();
-
-const dateFormated = $dateNow.toLocaleTimeString('es-Es');
-
-
-$spanDateForNews.textContent = dateFormated;
- */
-
-//Mostrar las categorias de la tienda
-
-/* Code for scroll page up */
 
 window.onscroll = function () {
   scrollFunction();

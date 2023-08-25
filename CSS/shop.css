@@ -162,7 +162,6 @@ main {
 .btn-menu.actived {
     background-color: red;
     color: #fff;
-    width: 100%;
     border-top-left-radius: 1rem;
     border-bottom-left-radius: 1rem;
     position: relative;
@@ -179,6 +178,7 @@ main {
     align-items: center;
     gap: 1rem;
     padding: 1rem;
+    width: 100%;
 }
 
 .boton-minicart {
