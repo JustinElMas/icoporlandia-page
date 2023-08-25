@@ -1,0 +1,178 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 20/12/2018 09:27
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+        font-size: 30px;
+font-style: normal;
+margin-left: 20px;
+}
+
+.flaticon-001-facebook:before { content: "\f100"; }
+.flaticon-002-twitter:before { content: "\f101"; }
+.flaticon-003-whatsapp:before { content: "\f102"; }
+.flaticon-004-groupme:before { content: "\f103"; }
+.flaticon-005-kik:before { content: "\f104"; }
+.flaticon-006-skype:before { content: "\f105"; }
+.flaticon-007-periscope:before { content: "\f106"; }
+.flaticon-008-youtube:before { content: "\f107"; }
+.flaticon-009-itunes:before { content: "\f108"; }
+.flaticon-010-linkedin:before { content: "\f109"; }
+.flaticon-011-instagram:before { content: "\f10a"; }
+.flaticon-012-messenger:before { content: "\f10b"; }
+.flaticon-013-twitter-1:before { content: "\f10c"; }
+.flaticon-014-snapchat:before { content: "\f10d"; }
+.flaticon-015-reddit:before { content: "\f10e"; }
+.flaticon-016-red:before { content: "\f10f"; }
+
+.fi-rr-0:before {
+  content: "\f101";
+  }
+      .fi-rr-1:before {
+  content: "\f102";
+  }
+      .fi-rr-2:before {
+  content: "\f103";
+  }
+      .fi-rr-3:before {
+  content: "\f104";
+  }
+      .fi-rr-360-degrees:before {
+  content: "\f105";
+  }
+      .fi-rr-4:before {
+  content: "\f106";
+  }
+      .fi-rr-5:before {
+  content: "\f107";
+  }
+      .fi-rr-6:before {
+  content: "\f108";
+  }
+      .fi-rr-7:before {
+  content: "\f109";
+  }
+      .fi-rr-8:before {
+  content: "\f10a";
+  }
+      .fi-rr-9:before {
+  content: "\f10b";
+  }
+      .fi-rr-a:before {
+  content: "\f10c";
+  }
+      .fi-rr-acorn:before {
+  content: "\f10d";
+  }
+      .fi-rr-ad:before {
+  content: "\f10e";
+  }
+      .fi-rr-add-document:before {
+  content: "\f10f";
+  }
+      .fi-rr-add-folder:before {
+  content: "\f110";
+  }
+      .fi-rr-add:before {
+  content: "\f111";
+  }
+      .fi-rr-address-book:before {
+  content: "\f112";
+  }
+      .fi-rr-address-card:before {
+  content: "\f113";
+  }
+      .fi-rr-air-conditioner:before {
+  content: "\f114";
+  }
+      .fi-rr-air-freshener:before {
+  content: "\f115";
+  }
+      .fi-rr-airplay:before {
+  content: "\f116";
+  }
+      .fi-rr-alarm-clock:before {
+  content: "\f117";
+  }
+      .fi-rr-alarm-exclamation:before {
+  content: "\f118";
+  }
+      .fi-rr-alarm-plus:before {
+  content: "\f119";
+  }
+      .fi-rr-alarm-snooze:before {
+  content: "\f11a";
+  }
+      .fi-rr-album-circle-plus:before {
+  content: "\f11b";
+  }
+      .fi-rr-album-circle-user:before {
+  content: "\f11c";
+  }
+      .fi-rr-album-collection:before {
+  content: "\f11d";
+  }
+      .fi-rr-album:before {
+  content: "\f11e";
+  }
+      .fi-rr-alien:before {
+  content: "\f11f";
+  }
+      .fi-rr-align-center:before {
+  content: "\f120";
+  }
+      .fi-rr-align-justify:before {
+  content: "\f121";
+  }
+      .fi-rr-align-left:before {
+  content: "\f122";
+  }
+      .fi-rr-align-slash:before {
+  content: "\f123";
+  }
+      .fi-rr-ambulance:before {
+  content: "\f124";
+  }
+      .fi-rr-anchor:before {
+  content: "\f125";
+  }
+      .fi-rr-angel:before {
+  content: "\f126";
+  }
+      .fi-rr-angle-circle-down:before {
+  content: "\f127";
+  }
+      .fi-rr-angle-circle-left:before {
+  content: "\f128";
+  }
+      .fi-rr-angle-circle-right:before {
+  content: "\f129";
+  }
+      .fi-rr-angle-circle-up:before {
+  content: "\f12a";
+  }
+
+  .fi-rr-cart-arrow-down:before {
+    content: "\f2b4";
+  }

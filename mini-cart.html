@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="image/png" sizes="32x32" rel="icon" href="./assets/icons8-animation-32.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./CSS/shop.css">
+    <title>Pedidos Icoporlandia</title>
+</head>
+<body>
+
+    <div class="wrapper">
+
+        <aside>
+
+            <header>
+                
+                <h2>Tus pedidos 🎁✨</h2>
+                
+            </header>
+
+            <nav>
+                <ul>
+
+                    <li>
+                        <a href="./shop.html" class="btn-menu boton-minicart"> <i class="bi bi-arrow-bar-left"></i>Seguir comprando</a>
+                    </li>
+
+                    <li>
+                        <a href="./mini-cart.html" class="btn-menu boton-minicart actived"> <i class="bi bi-cart4"></i> Tus Pedidos</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <a href="./index.html"  class="return mb-2"><i class="bi bi-arrow-bar-left"></i> Return</a>
+
+            <footer>
+
+                <p> &copy; Icoporlandia 2023 - Tienda de Artes y Diseños en Icopor </p>
+
+            </footer>
+
+        </aside>
+
+        <main>
+
+            <h2 class="title-begin">Carrito</h2>
+
+            <!-- productos -->
+
+            <div class="container-cart">
+
+
+                <p  class="container-cart-empty ">No tienes pedidos por ahora 🧺👋</p>
+
+                <a href="./shop.html" class="btn-menu boton-minicart"> <i class="bi bi-arrow-bar-left"></i>Ir a la tienda</a>
+
+                <div class="products-cart">
+
+                    <div class="cart-join-details disabled">
+                        <img class="cart-product-img" src="./assets/images_design/shop/mario-panoramic.jpeg" alt="mario-bros-esta-en-pedido">
+
+                        <div class="minicart-product-title">
+
+                            <small>Nombre:</small>
+                            <h2>Mario Bros - En icopor</h2>
+
+                        </div>
+
+                        <div class="minicart-product-amount">
+
+                            <small>Cantidad</small>
+                            <p>1</p>
+
+                        </div>
+
+                        <div class="minicart-product-pricing">
+                            <small>Pricing</small>
+                            <p>$1000</p>
+                        </div>
+
+                        <div class="minicart-prodcut-subtotal">
+                            <small>Subtotal</small>
+                            <p>$1000</p>
+                        </div>
+
+                        <button class="delete-product"> <i class="bi bi-trash3-fill"></i> </button>
+
+                    </div>
+
+                </div>
+
+                <div class="minicart-actions disabled">
+
+                    <div class="minicart-actions-left">
+                        <button class="minicart-actions-delete"> Vaciar Carrito </button>
+                    </div>
+
+                    <div class="minicart-actions-right">
+
+                        <div class="minicart-actions-total">
+                            <p>Total:</p>
+                            <p id="total">$1000</p>
+                        </div>
+
+                        <button class="minicart-actions-buy">Comprar Ahora</button>
+
+                        <!-- que el cleinte de clic aquí y le pase entonces laforma de pagar o que contacte con el telefono -->
+                    
+                    </div>
+
+                    
+                </div>
+                
+                <p  class="thanks disabled"><i class="bi bi-emoji-smile"></i> Gracias por comprar 🧺👋</p>
+                
+            </div>
+            
+        </main>
+        
+    </div>
+
+
+    <script src="./JS/mini-cart.js"></script>
+    
+</body>
+</html>
